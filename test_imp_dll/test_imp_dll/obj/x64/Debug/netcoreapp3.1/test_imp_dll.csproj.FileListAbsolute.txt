@@ -1,0 +1,11 @@
+D:\Workspace\test_imp_dll\test_imp_dll\bin\x64\Debug\netcoreapp3.1\test_imp_dll.exe
+D:\Workspace\test_imp_dll\test_imp_dll\bin\x64\Debug\netcoreapp3.1\test_imp_dll.deps.json
+D:\Workspace\test_imp_dll\test_imp_dll\bin\x64\Debug\netcoreapp3.1\test_imp_dll.runtimeconfig.json
+D:\Workspace\test_imp_dll\test_imp_dll\bin\x64\Debug\netcoreapp3.1\test_imp_dll.runtimeconfig.dev.json
+D:\Workspace\test_imp_dll\test_imp_dll\bin\x64\Debug\netcoreapp3.1\test_imp_dll.dll
+D:\Workspace\test_imp_dll\test_imp_dll\bin\x64\Debug\netcoreapp3.1\test_imp_dll.pdb
+D:\Workspace\test_imp_dll\test_imp_dll\obj\x64\Debug\netcoreapp3.1\test_imp_dll.AssemblyInfoInputs.cache
+D:\Workspace\test_imp_dll\test_imp_dll\obj\x64\Debug\netcoreapp3.1\test_imp_dll.AssemblyInfo.cs
+D:\Workspace\test_imp_dll\test_imp_dll\obj\x64\Debug\netcoreapp3.1\test_imp_dll.dll
+D:\Workspace\test_imp_dll\test_imp_dll\obj\x64\Debug\netcoreapp3.1\test_imp_dll.pdb
+D:\Workspace\test_imp_dll\test_imp_dll\obj\x64\Debug\netcoreapp3.1\test_imp_dll.csprojAssemblyReference.cache
