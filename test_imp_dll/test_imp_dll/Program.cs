@@ -14,7 +14,7 @@ namespace test_imp_dll
         public static extern int add(int a, int b);
 
         [DllImport(str, EntryPoint = "get_str_len", SetLastError = true, CharSet = CharSet.Unicode, ExactSpelling = false, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int get_str_len(string str);
+        public static extern int get_str_len(byte[] str);
 
         [DllImport(str, EntryPoint = "test_enum", SetLastError = true, CharSet = CharSet.Unicode, ExactSpelling = false, CallingConvention = CallingConvention.Cdecl)]
         public extern static int test_enum(my_enum m);
@@ -26,7 +26,9 @@ namespace test_imp_dll
             ret = CPPDLL.add(1, 2);
             Console.WriteLine(ret);
             Console.WriteLine("\n");
-            ret = CPPDLL.get_str_len("haha");
+            string tt = "hahaha";
+            byte[] ss = System.Text.Encoding.Default.GetBytes(tt);
+            ret = CPPDLL.get_str_len(ss);
             Console.WriteLine(ret);
             Console.WriteLine("\n");
             Console.Write(CPPDLL.test_enum(my_enum.C));
