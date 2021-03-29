@@ -9,3 +9,5 @@ enum my_enum {
 	A, B, C
 };
 extern "C" _declspec(dllexport) int test_enum(my_enum m);
+
+extern "C" _declspec(dllexport) int test_unsigned_long_and_unsigned_long_ptr(unsigned long tmp_ulong, unsigned long* tmp_ulong_ptr);
